@@ -1,0 +1,106 @@
+@font-face{
+	font-family: futrfw;
+	src: url(../fonts/FUTRFW_0.TTF);
+}
+@font-face{
+	font-family: helen;
+	src: url(../fonts/HELN.TTF);
+}
+
+body {
+  margin: 0;
+  }
+
+
+.sidebar {
+  padding-top: 50px;
+  margin: 0;
+  width: 200px;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.innerDivSidebar{
+	width:80%;
+	margin: auto;
+}
+.sidebar a {
+  display: block;
+  text-align: center;
+  background: #F8F8F8;
+  color: #000000;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  font-size: 21px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.vido{
+	width: 60%;
+	margin-top: 62px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	border: 2px solid#000000;
+}
+.text-vdo{
+	width: 68%;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+button{
+	font-size: 12px;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 17px;
+	padding-right: 17px;
+	border: 0;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+	.vido{width: 90%;
+		margin-top: 50px;
+		margin-left: 10px;
+		margin-bottom: 10px;}
+	.text-vdo{
+		width: 90%;
+		margin-left: 10px;
+		margin-bottom: 10px;
+}
+	
+  .sidebar a {float: left;font-size: 16px;}
+  div.content {margin-left: 0;margin-bottom: 20px;}
+	
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+	  margin-bottom: 20px;
+  }
+.vido{width: 90%;margin-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 20px;}
+}
